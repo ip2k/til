@@ -14,7 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "todayilearned"
+  gem.name = "til"
   gem.executables = ['til']
   gem.homepage = "http://github.com/ip2k/todayilearned"
   gem.license = "Creative Commons by-nc-sa"
