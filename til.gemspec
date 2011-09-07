@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{til}
-  s.version = "0.1.0"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{ip2k}]
@@ -25,9 +25,11 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "bin/til"
+    "bin/til",
+    "til.gemspec",
+    "todayilearned.gemspec"
   ]
-  s.homepage = %q{http://github.com/ip2k/til}
+  s.homepage = %q{http://github.com/ip2k/todayilearned}
   s.licenses = [%q{Creative Commons by-nc-sa}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.5}
